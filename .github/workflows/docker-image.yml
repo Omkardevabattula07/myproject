@@ -26,7 +26,7 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t myproject .
+        docker build -t myproject ./django
 
     - name: Log in to Docker Hub
       uses: docker/login-action@v2
